@@ -1,0 +1,33 @@
+.categories {
+    width: 220px;
+    height: 60px;
+}
+.main-title-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    padding: 10px;
+    font-size: 30px;
+    background-color: silver;
+}
+.button {
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    border-color: blue;
+  }
+  
+  .button:hover {
+    background-color:blue; 
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: white;
+  }
+
+  .ul{
+    display: flex;
+    width: 100px;
+    height: 50px;
+  }
